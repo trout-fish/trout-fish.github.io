@@ -5,7 +5,7 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: #bb8588ff;
+  background-color: rgba(208, 188, 213, 1);
   color: #111111;
 }
 

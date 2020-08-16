@@ -10,6 +10,7 @@ html{
 }
 
 body{
+  text-align: center;
   margin: 0;
   font-family: 'Crimson Text', serif;
   font-size: 16px;
@@ -23,9 +24,10 @@ h1, h2, h3{
 }
 
 h1{
+  text-align: center;
   font-weight: 900;
   font-size: 3em;
-  color: #333;
+  color: #111;
   padding: 0em;
   margin-bottom: 2em;
   text-shadow: 2px 2px red;
@@ -45,7 +47,7 @@ h4{
 .list{
   padding: 3em 8em;
   animation: fadein 5s;
-  position: relative;
+  position: center;
   z-index: 0;
   box-shadow: 0px 5px 5px rgba(48, 102, 190, 1);
 }

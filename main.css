@@ -74,8 +74,8 @@ html, body, .grid-container { height: 100%; margin: 0; }
 
 .lsb {
   grid-area: lsb;
-  background: url(images/rockmanfish.jpg) repeat;
-  background-size: cover;
+  background: url(images/rockmanfish.jpg);
+  
 
 }
 

@@ -26,7 +26,7 @@ h1, h2, h3{
 h1{
   text-align: center;
   font-weight: 900;
-  font-size: 3em;
+  font-size: 4em;
   color: #111;
   padding: 0em;
   margin-bottom: 2em;
@@ -36,7 +36,7 @@ h1{
 h2{
   text-align: center;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 2em;
   color: #732;
   padding: 0em;
   text-shadow: 2px 2px red;
@@ -52,13 +52,34 @@ h4{
   font-weight: 900;
 }
 
-.list{
-  padding: 3em 8em;
-  animation: fadein 5s;
-  position: center;
-  z-index: 0;
-  box-shadow: 0px 70px 300px rgba(48, 102, 190, 1);
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "lsb top top rsb" "lsb posts posts rsb" "lsb posts posts rsb";
 }
+
+.posts {
+  grid-area: posts;
+  border-style: groove;
+  background-color: lightgrey;
+  box-shadow: 10px 40px 50px blue;
+
+}
+
+.top { grid-area: top; }
+
+.lsb {
+  grid-area: lsb;
+  background: url(images/rockmanfish.jpg) repeat;
+  background-size: cover;
+
+}
+
+.rsb { grid-area: rsb; }
 
 
 a, a:visited {
@@ -71,38 +92,6 @@ a:hover {
   color: blue;
 }
 
-.bio{
-  padding: 1.8em 0em 3em 2em;
-  float: right;
-  text-align: justify;
-  width: 30vw;
-  z-index: 99999;
-  position: relative;
-}
-
-.bioTitle{
-  display: none;
-}
-
-.contact{
-  text-align: center;
-  margin-bottom: 3em;
-}
-.contact h3{
-  font-size: 1.8em;
-}
-
-.contact a{
-  text-decoration: underline;
-}
-
-.fab, .fas{
-  vertical-align: middle;
-  background-color: #333;
-  border-radius: 50%;
-  padding: 0.7em;
-  margin: 0.8em;
-}
 
 a > .fab, a > .fas{
   color: #eee;

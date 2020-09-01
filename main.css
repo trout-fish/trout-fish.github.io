@@ -58,7 +58,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1px 1px;
+  gap: 10px 10px;
   grid-template-areas: "lsb top top rsb" "lsb posts posts rsb" "lsb posts posts rsb";
 }
 
@@ -75,7 +75,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
 .lsb {
   grid-area: lsb;
   background: url(images/rockmanfish.jpg);
-  
+
 
 }
 

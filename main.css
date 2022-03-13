@@ -46,6 +46,7 @@ h3{
   color: #162;
   text-transform: uppercase;
   font-weight: 900;
+  margin-bottom: 10em;
   padding-top: 1.5em;
 }
 
@@ -60,7 +61,7 @@ html, body, .grid-container { height: 100%; margin: 0; }
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px 10px;
-  grid-template-areas: "lsb top top rsb" "lsb posts posts rsb" "lsb posts posts rsb";
+  grid-template-areas: "lsb top rsb" "lsb posts rsb" "lsb bottom rsb";
 }
 
 .posts {
@@ -72,6 +73,12 @@ html, body, .grid-container { height: 100%; margin: 0; }
 }
 
 .top { grid-area: top; }
+
+.frog
+{
+  background: url(images/rockmanfish.jpg);
+
+}
 
 .lsb {
   grid-area: lsb;
@@ -95,6 +102,7 @@ a:hover {
 
 
 a > .fab, a > .fas{
+  text-align: right;
   color: #eee;
   font-size: 1.2em;
 }

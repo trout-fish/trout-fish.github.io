@@ -6,10 +6,19 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
 @import url('https://fonts.googleapis.com/css?family=Almendra+SC');
 @import url('https://fonts.googleapis.com/css?family=Cardo');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
 
-
-
-
+p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(84, 84, 84, 0);
+    text-shadow: rgba(46, 182, 255, 0.42) -2px 3px 5px;
+}
 
 
 html, body{
@@ -43,21 +52,42 @@ h2{
 }
 
 
+/* index style sheet */
 .top {
-    padding-top: 10px;
+
+    margin-bottom: 10px;
+    margin-top: 15px;
+  
+    padding-top: 20px;
+    padding-top: 30px;
     padding-right: 5px;
     padding-bottom: 50px;
     padding-left: 5px;
 }
 
 .posts {
-    /* grid-area: posts; */
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    border-style: groove;
+    background-color: lightgrey;
+ 
+    box-shadow: 0px 70px 100px blue;
+}
+
+.utext {
+
+
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 50px;
     padding-left: 5px;
-    border-style: groove;
-    background-color: lightgrey;
-    box-shadow: 0px 70px 100px blue;
+
 }
+
 

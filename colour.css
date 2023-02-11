@@ -5,8 +5,7 @@ color sets the colour of the text on the page.
  */
 
 html, body{
-  background-color: rgba(208, 188, 213, 1);
-  color: #111111;
+
 }
 
 /*
@@ -14,7 +13,7 @@ h1 is the bold "Your Name" at the top of the page.
  */
 
 h1{
-color: #111111;
+
 }
 
 /*
@@ -22,7 +21,7 @@ h3 is used for the subheadings, like "full-length"
  */
 
 h3{
-  color: #111111;
+
 }
 
 /*
@@ -30,7 +29,7 @@ h4 is used for the dates in this template
  */
 
 h4{
-  color: #111111;
+
 }
 
 /*
